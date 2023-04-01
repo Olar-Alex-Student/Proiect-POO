@@ -18,8 +18,16 @@ Cu cat numarul de pe bile care corespunde cu cele alese de tine sunt extrase con
 
 ## Clase folosite
 
-1. Clasa jocului **5/40**
-2. Clasa jocului **6/49**
+1. Clasa Main
+2. Clasa jocului **5/40**
+3. Clasa jocului **6/49**
+
+### Clasa Main
+
+- Clasa `Main` va avea toate functionalitatile aplicatiei.
+- In functia `int main` a aplicatiei va exista doar clasa `Main`.
+- Acest lucru va face aplicatia modulara si usor de actualizat in momentul unei schimbari.
+- In ea vor exista doua functii care pornesc cele doua jocuri disponibile si o functie de meniu pentru a exista o interfata a aplicatiei.
 
 ### Clasa 5/40
 
