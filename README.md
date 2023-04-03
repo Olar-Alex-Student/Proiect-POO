@@ -33,10 +33,24 @@ Cu cat numarul de pe bile care corespunde cu cele alese de tine sunt extrase con
 
 - Clasa **5/40** va contine functiile de extragere aleatorie a bilelor din bol si cea de selectie a numerelor de catre utilizator.
 - In functia de alegere a bilelor se va impune selectarea a cat din buget sa fie alocat pentru acel joc.
+- Libraria de extragere aleatorie este `#include <cstdlib>` si functiile sunt `rand()`, `srand()`.
 - Numerele extrase si alese sunt de tip `int`. Iar la fiecare bila ghicita suma introdusa pentru joc se va inmulti cu `x1.5`.
 
 ### Clasa 6/49
 
 - Clasa **6/49** va contine functiile de extragere aleatorie a bilelor din bol si cea de selectie a numerelor de catre utilizator.
 - In functia de alegere a bilelor se va impune selectarea a cat din buget sa fie alocat pentru acel joc.
+- Libraria de extragere aleatorie este `#include <cstdlib>` si functiile sunt `rand()`, `srand()`.
 - Numerele extrase si alese sunt de tip `int`. Iar la fiecare bila ghicita suma introdusa pentru joc se va inmulti cu `x1.75`.
+
+## Functiile folosite in cadrul clasei Main
+
+1. Functia `void main()`
+2. Functia `alegeJoc()`
+
+## Functiile folosite in cadrul claselor de jocuri
+
+1. Introducere a sumei pentru joc `setSumaJoc()`.
+2. Alegerea numerelor jucatorului `setNumereJoc()`.
+3. Extragerea numerelor din bol `getNumereExtragere()`.
+4. Vizualizare castig `vizRezultat()`.
