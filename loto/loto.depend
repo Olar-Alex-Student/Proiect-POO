@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1584209020 source:d:\down\proiect-poo\loto\main.cpp
+	<iostream>
+
+1681238394 source:d:\down\proiect-poo\loto\src\main.cpp
+	"Main.h"
+
+1681238394 d:\down\proiect-poo\loto\include\main.h
+
+1681238640 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+	"SaseDinPatruzeciSiNoua.h"
+
+1681238640 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+
