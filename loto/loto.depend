@@ -1,14 +1,33 @@
 # depslib dependency file v1.0
-1584209020 source:d:\down\proiect-poo\loto\main.cpp
-	<iostream>
-
-1681238394 source:d:\down\proiect-poo\loto\src\main.cpp
+1681390973 source:d:\down\proiect-poo\loto\main.cpp
 	"Main.h"
-
-1681238394 d:\down\proiect-poo\loto\include\main.h
-
-1681238640 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+
+1681392196 source:d:\down\proiect-poo\loto\src\main.cpp
+	"Main.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+
+1681391904 d:\down\proiect-poo\loto\include\main.h
+
+1681390973 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+	"SaseDinPatruzeciSiNoua.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
 
 1681238640 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+
+1681390973 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
+	"CinciDinPatruzeci.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+
+1681238670 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
 
