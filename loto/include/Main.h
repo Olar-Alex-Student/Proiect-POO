@@ -1,8 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+//Clase
+#include "CinciDinPatruzeci.h"
+#include "SaseDinPatruzeciSiNoua.h"
 
-class Main
+class Main : public CinciDinPatruzeci
 {
     public:
         // Constructor

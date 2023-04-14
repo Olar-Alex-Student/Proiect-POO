@@ -7,6 +7,7 @@
 #include <iostream>
 #include <iomanip>
 #include <conio.h>
+#include<cstdlib>
 
 using namespace std;
 

@@ -1,10 +1,13 @@
 //Clase
 #include "Main.h"
+#include "CinciDinPatruzeci.h"
+#include "SaseDinPatruzeciSiNoua.h"
 
 //Biblioteci
 #include <iostream>
 #include <iomanip>
 #include <conio.h>
+#include<cstdlib>
 
 using namespace std;
 
@@ -39,6 +42,7 @@ void Main::CitireSumaTastatura()
 void Main::main()
 {
     int alegere;
+    CinciDinPatruzeci Joc;
     do
     {
         system("cls");
@@ -70,6 +74,7 @@ void Main::main()
             getch();
             break;
         case 4:
+            Joc.MainCinciDinPatruzeci();
             getch();
             break;
         case 5:
