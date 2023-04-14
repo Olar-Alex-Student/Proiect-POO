@@ -25,7 +25,7 @@ Cu cat numarul de pe bile care corespunde cu cele alese de tine sunt extrase con
 ### Clasa Main
 
 - Clasa `Main` va avea toate functionalitatile aplicatiei.
-- In functia `int main` a aplicatiei va exista doar clasa `Main`.
+- In functia `void main` a aplicatiei va exista doar clasa `Main`.
 - Acest lucru va face aplicatia modulara si usor de actualizat in momentul unei schimbari.
 - In ea vor exista doua functii care pornesc cele doua jocuri disponibile si o functie de meniu pentru a exista o interfata a aplicatiei.
 
