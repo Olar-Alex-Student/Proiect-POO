@@ -5,7 +5,7 @@
 #include "CinciDinPatruzeci.h"
 #include "SaseDinPatruzeciSiNoua.h"
 
-class Main : public CinciDinPatruzeci
+class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua
 {
     public:
         // Constructor

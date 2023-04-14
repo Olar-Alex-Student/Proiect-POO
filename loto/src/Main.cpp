@@ -42,7 +42,8 @@ void Main::CitireSumaTastatura()
 void Main::main()
 {
     int alegere;
-    CinciDinPatruzeci Joc;
+    CinciDinPatruzeci Joc5;
+    SaseDinPatruzeciSiNoua Joc6;
     do
     {
         system("cls");
@@ -71,10 +72,11 @@ void Main::main()
             getch();
             break;
         case 3:
+            Joc6.MainSaseDinPatruzeciSiNoua();
             getch();
             break;
         case 4:
-            Joc.MainCinciDinPatruzeci();
+            Joc5.MainCinciDinPatruzeci();
             getch();
             break;
         case 5:

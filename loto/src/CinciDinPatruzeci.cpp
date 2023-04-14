@@ -43,7 +43,7 @@ void CinciDinPatruzeci::ExtragereNumere()
     for(int i=0; i<40; i++)
     {
         extrase[i] = 1 + (rand() % 99);
-        do
+        /*do
         {
             for(int j=0; j<i; j++)
             {
@@ -57,7 +57,7 @@ void CinciDinPatruzeci::ExtragereNumere()
                 }
             }
         }
-        while(check==false);
+        while(check==false);*/
         cout << i+1 << ". " << extrase[i] << endl;
     }
 }
