@@ -19,6 +19,8 @@ using namespace std;
 CinciDinPatruzeci::CinciDinPatruzeci()
 {
     this->castig = 0;
+    this->extrase = {};
+    this->numere = {};
 }
 
 CinciDinPatruzeci::~CinciDinPatruzeci()

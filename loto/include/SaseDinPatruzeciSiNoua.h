@@ -14,17 +14,17 @@ class SaseDinPatruzeciSiNoua
         // Alegere Numere
         void AlegereNumere();
         // Getter Numere
-        int* GetNumere();
+        void GetNumere();
         // Extragere Numere
         void ExtragereNumere();
         // Getter Numere Extrase
-        int* GetNumereExtrase();
+        void GetNumereExtrase();
     protected:
 
     private:
         int castig;
-        int numere[6];
-        int extrase[49];
+        std::vector<int> numere;
+        std::vector<int> extrase;
 };
 
 #endif // SASEDINPATRUZECISINOUA_H

@@ -19,6 +19,8 @@ using namespace std;
 SaseDinPatruzeciSiNoua::SaseDinPatruzeciSiNoua()
 {
     this->castig = 0;
+    this->extrase = {};
+    this->numere = {};
 }
 
 SaseDinPatruzeciSiNoua::~SaseDinPatruzeciSiNoua()
@@ -28,52 +30,59 @@ SaseDinPatruzeciSiNoua::~SaseDinPatruzeciSiNoua()
 
 void SaseDinPatruzeciSiNoua::AlegereNumere()
 {
-    cout << "Numere alese de tine sunt:" << endl;
     for(int i=0; i<6; i++)
     {
+        int numar;
         cout << "Nr. " << i+1 << ": ";
-        cin >> numere[i];
+        cin >> numar;
+        numere.push_back(numar);
     }
 }
 
-int* SaseDinPatruzeciSiNoua::GetNumere()
+void SaseDinPatruzeciSiNoua::GetNumere()
 {
-    return numere;
+    for(int i=0; i<5; i++)
+    {
+        cout << "Nr. " << i+1 << ": " << numere[i] << endl;
+    }
 }
 
 void SaseDinPatruzeciSiNoua::ExtragereNumere()
 {
-    bool check = false;
-    cout << "Numerele extrase sunt:" << endl;
     for(int i=0; i<49; i++)
     {
-        extrase[i] = 1 + (rand() % 99);
-        /*do
+        int extras;
+        int random = 1 + (rand() % 49);
+        extras = random;
+        while (std::find(extrase.begin(), extrase.end(), extras) != extrase.end())
         {
-            for(int j=0; j<i; j++)
-            {
-                if(extrase[i]==extrase[j])
-                {
-                    check=false;
-                }
-                else
-                {
-                    check=true;
-                }
-            }
+            int random = 1 + (rand() % 49);
+            extras = random;
         }
-        while(check==false);*/
-        cout << i+1 << ". " << extrase[i] << endl;
+        extrase.push_back(extras);
     }
 }
 
-int* SaseDinPatruzeciSiNoua::GetNumereExtrase()
+void SaseDinPatruzeciSiNoua::GetNumereExtrase()
 {
-    return extrase;
+    for(int i=0; i<49; i++)
+    {
+        cout << "Nr. " << i+1 << ": " << extrase[i] << endl;
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+    }
 }
 
 void SaseDinPatruzeciSiNoua::MainSaseDinPatruzeciSiNoua()
 {
+    system("cls");
+    cout << "Numerele de pe bilet sunt:" << endl;
     AlegereNumere();
+    system("cls");
+    //GetNumere();
+    cout << "Se extrag numerele..." << endl;
+    std::this_thread::sleep_for(std::chrono::seconds(5));
     ExtragereNumere();
+    system("cls");
+    cout << "Numerele extrase sunt:" << endl;
+    GetNumereExtrase();
 }
