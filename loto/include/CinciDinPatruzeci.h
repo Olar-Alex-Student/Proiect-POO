@@ -1,6 +1,7 @@
 #ifndef CINCIDINPATRUZECI_H
 #define CINCIDINPATRUZECI_H
 
+#include <vector>
 
 class CinciDinPatruzeci
 {
@@ -14,18 +15,18 @@ class CinciDinPatruzeci
         // Alegere Numere
         void AlegereNumere();
         // Getter Numere
-        int* GetNumere();
+        void GetNumere();
         // Extragere Numere
         void ExtragereNumere();
         // Getter Numere Extrase
-        int* GetNumereExtrase();
+        void GetNumereExtrase();
 
     protected:
 
     private:
         int castig;
-        int numere[5];
-        int extrase[40];
+        std::vector<int> numere;
+        std::vector<int> extrase;
 };
 
 #endif // CINCIDINPATRUZECI_H

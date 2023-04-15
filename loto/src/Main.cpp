@@ -7,7 +7,12 @@
 #include <iostream>
 #include <iomanip>
 #include <conio.h>
-#include<cstdlib>
+#include <cstdlib>
+#include <vector>
+#include <chrono>
+#include <thread>
+#include <random>
+#include <algorithm>
 
 using namespace std;
 
@@ -34,7 +39,6 @@ int Main::GetSuma()
 void Main::CitireSumaTastatura()
 {
     int _suma;
-    cout << endl << "Introdu suma dorita: ";
     cin >> _suma;
     SetSuma(_suma);
 }
@@ -64,11 +68,12 @@ void Main::main()
         switch(alegere)
         {
         case 1:
+            cout << endl << "Introdu suma: ";
             CitireSumaTastatura();
             getch();
             break;
         case 2:
-            cout << "Sold-ul este: " << GetSuma() << endl;
+            cout << endl << "Sold-ul este: " << GetSuma() << endl;
             getch();
             break;
         case 3:
