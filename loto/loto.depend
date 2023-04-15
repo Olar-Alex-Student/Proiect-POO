@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1681473853 source:d:\down\proiect-poo\loto\main.cpp
+1681582616 source:d:\down\proiect-poo\loto\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -7,8 +7,13 @@
 	<iomanip>
 	<conio.h>
 	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
 
-1681475911 source:d:\down\proiect-poo\loto\src\main.cpp
+1681582616 source:d:\down\proiect-poo\loto\src\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -16,12 +21,17 @@
 	<iomanip>
 	<conio.h>
 	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
 
-1681474259 d:\down\proiect-poo\loto\include\main.h
+1681571328 d:\down\proiect-poo\loto\include\main.h
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
 
-1681474057 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+1681582616 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -29,10 +39,15 @@
 	<iomanip>
 	<conio.h>
 	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
 
-1681238640 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+1681571328 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
 
-1681475976 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
+1681582616 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -40,6 +55,12 @@
 	<iomanip>
 	<conio.h>
 	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
 
-1681471853 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
+1681582336 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
+	<vector>
 

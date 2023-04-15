@@ -7,7 +7,12 @@
 #include <iostream>
 #include <iomanip>
 #include <conio.h>
-#include<cstdlib>
+#include <cstdlib>
+#include <vector>
+#include <chrono>
+#include <thread>
+#include <random>
+#include <algorithm>
 
 using namespace std;
 
