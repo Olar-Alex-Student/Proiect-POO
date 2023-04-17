@@ -70,6 +70,25 @@ void CinciDinPatruzeci::GetNumereExtrase()
     }
 }
 
+void CinciDinPatruzeci::VerificareCastig()
+{
+    for(int i=0; i<5; i++)
+    {
+        for(int j=0; j<5; j++)
+        {
+            if(numere[i]==extrase[j])
+            {
+                castig+=1.5;
+            }
+        }
+    }
+}
+
+float CinciDinPatruzeci::GetCastig()
+{
+    return castig;
+}
+
 void CinciDinPatruzeci::MainCinciDinPatruzeci()
 {
     system("cls");
@@ -83,4 +102,10 @@ void CinciDinPatruzeci::MainCinciDinPatruzeci()
     system("cls");
     cout << "Numerele extrase sunt:" << endl;
     GetNumereExtrase();
+    system("cls");
+    cout << "Se verifica biletul..." << endl;
+    std::this_thread::sleep_for(std::chrono::seconds(5));
+    VerificareCastig();
+    system("cls");
+    cout << "Castigul tau este: " << GetCastig() << " din suma din cont." << endl;
 }

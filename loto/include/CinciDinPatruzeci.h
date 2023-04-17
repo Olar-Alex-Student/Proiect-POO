@@ -20,11 +20,15 @@ class CinciDinPatruzeci
         void ExtragereNumere();
         // Getter Numere Extrase
         void GetNumereExtrase();
+        // Verificare Castig
+        void VerificareCastig();
+        // Getter Castig
+        float GetCastig();
 
     protected:
 
     private:
-        int castig;
+        float castig;
         std::vector<int> numere;
         std::vector<int> extrase;
 };
