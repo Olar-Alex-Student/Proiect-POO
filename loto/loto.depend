@@ -13,7 +13,7 @@
 	<random>
 	<algorithm>
 
-1681585852 source:d:\down\proiect-poo\loto\src\main.cpp
+1681738642 source:d:\down\proiect-poo\loto\src\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -27,11 +27,13 @@
 	<random>
 	<algorithm>
 
-1681585800 d:\down\proiect-poo\loto\include\main.h
+1681738642 d:\down\proiect-poo\loto\include\main.h
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
 
-1681586192 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+1681586320 ated upstream
+
+1681738642 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -45,9 +47,19 @@
 	<random>
 	<algorithm>
 
-1681585887 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
-
-1681585852 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
+1681586320 shed changes
+	"Main.h"
+	"CinciDinPatruzeci.h"
+	"SaseDinPatruzeciSiNoua.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
@@ -61,6 +73,22 @@
 	<random>
 	<algorithm>
 
-1681585852 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
+1681738642 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+
+1681739297 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
+	"Main.h"
+	"CinciDinPatruzeci.h"
+	"SaseDinPatruzeciSiNoua.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+
+1681739126 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
 	<vector>
 
