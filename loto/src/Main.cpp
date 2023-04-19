@@ -26,19 +26,19 @@ Main::~Main()
     //dtor
 }
 
-void Main::SetSuma(int _suma)
+void Main::SetSuma(float _suma)
 {
     this->suma=_suma;
 }
 
-int Main::GetSuma()
+float Main::GetSuma()
 {
     return suma;
 }
 
 void Main::CitireSumaTastatura()
 {
-    int _suma;
+    float _suma;
     cin >> _suma;
     SetSuma(_suma);
 }
