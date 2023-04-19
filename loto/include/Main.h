@@ -20,11 +20,18 @@ class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua
         void SetSuma(float _suma);
         // Getter Suma
         float GetSuma();
+        // Setter Castig
+        void SetCastig(float _castig);
+        // Getter Castig
+        float GetCastig();
+        // Suma Dupa Joc
+        void SetSumaDupaJoc(float _castig);
 
     protected:
 
     private:
         float suma;
+        float castig;
 };
 
 #endif // MAIN_H
