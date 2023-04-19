@@ -3,7 +3,10 @@
 
 #include <vector>
 
-class CinciDinPatruzeci
+//Clase
+#include "Exceptie.h"
+
+class CinciDinPatruzeci : public Exceptie
 {
     public:
         // Consturcotr

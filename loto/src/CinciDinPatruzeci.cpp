@@ -2,6 +2,7 @@
 #include "Main.h"
 #include "CinciDinPatruzeci.h"
 #include "SaseDinPatruzeciSiNoua.h"
+#include "Exceptie.h"
 
 //Biblioteci
 #include <iostream>

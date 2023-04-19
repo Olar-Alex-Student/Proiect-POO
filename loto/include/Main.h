@@ -4,8 +4,9 @@
 //Clase
 #include "CinciDinPatruzeci.h"
 #include "SaseDinPatruzeciSiNoua.h"
+#include "Exceptie.h"
 
-class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua
+class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua , Exceptie
 {
     public:
         // Constructor

@@ -1,8 +1,10 @@
 #ifndef SASEDINPATRUZECISINOUA_H
 #define SASEDINPATRUZECISINOUA_H
 
+//Clase
+#include "Exceptie.h"
 
-class SaseDinPatruzeciSiNoua
+class SaseDinPatruzeciSiNoua : public Exceptie
 {
     public:
         // Constructor
