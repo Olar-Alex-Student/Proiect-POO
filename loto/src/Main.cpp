@@ -20,6 +20,7 @@ using namespace std;
 Main::Main()
 {
     this->suma = 0;
+    this->castig = 1;
 }
 
 Main::~Main()
@@ -29,12 +30,27 @@ Main::~Main()
 
 void Main::SetSuma(float _suma)
 {
-    this->suma=_suma;
+    this->suma += _suma;
 }
 
 float Main::GetSuma()
 {
     return suma;
+}
+
+void Main::SetCastig(float _castig)
+{
+    this->castig = _castig;
+}
+
+float Main::GetCastig()
+{
+    return castig;
+}
+
+void Main::SetSumaDupaJoc(float _castig)
+{
+    this->suma *= _castig;
 }
 
 void Main::CitireSumaTastatura()
@@ -79,10 +95,14 @@ void Main::main()
             break;
         case 3:
             Joc6.MainSaseDinPatruzeciSiNoua();
+            SetCastig(Joc6.GetCastig());
+            SetSumaDupaJoc(GetCastig());
             getch();
             break;
         case 4:
             Joc5.MainCinciDinPatruzeci();
+            SetCastig(Joc5.GetCastig());
+            SetSumaDupaJoc(GetCastig());
             getch();
             break;
         case 5:

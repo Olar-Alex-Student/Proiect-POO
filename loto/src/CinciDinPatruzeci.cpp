@@ -26,7 +26,7 @@ CinciDinPatruzeci::CinciDinPatruzeci()
 
 CinciDinPatruzeci::~CinciDinPatruzeci()
 {
-    //dtor
+
 }
 
 void CinciDinPatruzeci::AlegereNumere()
