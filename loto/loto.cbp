@@ -35,10 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/CinciDinPatruzeci.h" />
+		<Unit filename="include/Exceptie.h" />
 		<Unit filename="include/Main.h" />
 		<Unit filename="include/SaseDinPatruzeciSiNoua.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/CinciDinPatruzeci.cpp" />
+		<Unit filename="src/Exceptie.cpp" />
 		<Unit filename="src/Main.cpp" />
 		<Unit filename="src/SaseDinPatruzeciSiNoua.cpp" />
 		<Extensions>
