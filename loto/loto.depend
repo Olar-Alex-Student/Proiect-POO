@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1681914533 source:d:\down\proiect-poo\loto\main.cpp
+1681919323 source:d:\down\proiect-poo\loto\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
+	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -12,11 +13,16 @@
 	<thread>
 	<random>
 	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
 
-1681915459 source:d:\down\proiect-poo\loto\src\main.cpp
+1681919901 source:d:\down\proiect-poo\loto\src\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
+	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -26,16 +32,16 @@
 	<thread>
 	<random>
 	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
 
-1681915281 d:\down\proiect-poo\loto\include\main.h
-	"CinciDinPatruzeci.h"
-	"SaseDinPatruzeciSiNoua.h"
+1681919802 d:\down\proiect-poo\loto\include\main.h
 
 1681586320 ated upstream
 
-1681914533 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
-	"Main.h"
-	"CinciDinPatruzeci.h"
+1681919802 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
 	"SaseDinPatruzeciSiNoua.h"
 	<iostream>
 	<iomanip>
@@ -46,6 +52,10 @@
 	<thread>
 	<random>
 	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
 
 1681586320 shed changes
 	"Main.h"
@@ -73,12 +83,11 @@
 	<random>
 	<algorithm>
 
-1681914533 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+1681919859 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
+	<vector>
 
-1681914533 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
-	"Main.h"
+1681919707 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
 	"CinciDinPatruzeci.h"
-	"SaseDinPatruzeciSiNoua.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -88,7 +97,29 @@
 	<thread>
 	<random>
 	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
 
-1681914533 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
+1681919835 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
 	<vector>
+
+1681919802 d:\down\proiect-poo\loto\include\exceptie.h
+
+1681919301 source:d:\down\proiect-poo\loto\src\exceptie.cpp
+	"Exceptie.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
 

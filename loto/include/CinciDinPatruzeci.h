@@ -1,12 +1,10 @@
 #ifndef CINCIDINPATRUZECI_H
 #define CINCIDINPATRUZECI_H
 
+//Biblioteci
 #include <vector>
 
-//Clase
-#include "Exceptie.h"
-
-class CinciDinPatruzeci : public Exceptie
+class CinciDinPatruzeci
 {
     public:
         // Consturcotr

@@ -14,6 +14,11 @@
 #include <thread>
 #include <random>
 #include <algorithm>
+#include <fstream>
+#include <stdlib.h>
+#include <string.h>
+#include <string>
+
 
 using namespace std;
 

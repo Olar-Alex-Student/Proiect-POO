@@ -1,7 +1,6 @@
 #ifndef EXCEPTIE_H
 #define EXCEPTIE_H
 
-
 class Exceptie
 {
 public:

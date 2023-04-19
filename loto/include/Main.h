@@ -1,12 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-//Clase
-#include "CinciDinPatruzeci.h"
-#include "SaseDinPatruzeciSiNoua.h"
-#include "Exceptie.h"
-
-class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua , Exceptie
+class Main
 {
     public:
         // Constructor

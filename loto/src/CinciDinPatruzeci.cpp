@@ -1,8 +1,4 @@
-//Clase
-#include "Main.h"
 #include "CinciDinPatruzeci.h"
-#include "SaseDinPatruzeciSiNoua.h"
-#include "Exceptie.h"
 
 //Biblioteci
 #include <iostream>
@@ -14,6 +10,10 @@
 #include <thread>
 #include <random>
 #include <algorithm>
+#include <fstream>
+#include <stdlib.h>
+#include <string.h>
+#include <string>
 
 using namespace std;
 

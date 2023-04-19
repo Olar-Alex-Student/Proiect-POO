@@ -14,6 +14,11 @@
 #include <thread>
 #include <random>
 #include <algorithm>
+#include <fstream>
+#include <stdlib.h>
+#include <string.h>
+#include <string>
+
 
 using namespace std;
 
@@ -94,12 +99,20 @@ void Main::main()
             getch();
             break;
         case 3:
+            if(suma <= 0 )
+            {
+                throw Exceptie("6/49","Suma din cont este 0");
+            }
             Joc6.MainSaseDinPatruzeciSiNoua();
             SetCastig(Joc6.GetCastig());
             SetSumaDupaJoc(GetCastig());
             getch();
             break;
         case 4:
+            if(suma <= 0 )
+            {
+                throw Exceptie("5/40","Suma din cont este 0");
+            }
             Joc5.MainCinciDinPatruzeci();
             SetCastig(Joc5.GetCastig());
             SetSumaDupaJoc(GetCastig());
