@@ -18,14 +18,14 @@ class Main : public CinciDinPatruzeci , SaseDinPatruzeciSiNoua , Exceptie
         // Citire Suma
         void CitireSumaTastatura();
         // Setter Suma
-        void SetSuma(int _suma);
+        void SetSuma(float _suma);
         // Getter Suma
-        int GetSuma();
+        float GetSuma();
 
     protected:
 
     private:
-        int suma;
+        float suma;
 };
 
 #endif // MAIN_H

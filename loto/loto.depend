@@ -1,9 +1,8 @@
 # depslib dependency file v1.0
-1681891904 source:d:\down\proiect-poo\loto\main.cpp
+1681892821 source:d:\down\proiect-poo\loto\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
-	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -14,11 +13,10 @@
 	<random>
 	<algorithm>
 
-1681891904 source:d:\down\proiect-poo\loto\src\main.cpp
+1681739666 source:d:\down\proiect-poo\loto\src\main.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
-	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -29,18 +27,16 @@
 	<random>
 	<algorithm>
 
-1681891943 d:\down\proiect-poo\loto\include\main.h
+1681893021 d:\down\proiect-poo\loto\include\main.h
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
-	"Exceptie.h"
 
 1681586320 ated upstream
 
-1681891904 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
+1681892821 source:d:\down\proiect-poo\loto\src\sasedinpatruzecisinoua.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
-	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -77,14 +73,12 @@
 	<random>
 	<algorithm>
 
-1681891915 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
-	"Exceptie.h"
+1681892821 d:\down\proiect-poo\loto\include\sasedinpatruzecisinoua.h
 
-1681891904 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
+1681892821 source:d:\down\proiect-poo\loto\src\cincidinpatruzeci.cpp
 	"Main.h"
 	"CinciDinPatruzeci.h"
 	"SaseDinPatruzeciSiNoua.h"
-	"Exceptie.h"
 	<iostream>
 	<iomanip>
 	<conio.h>
@@ -95,12 +89,6 @@
 	<random>
 	<algorithm>
 
-1681891944 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
+1681892821 d:\down\proiect-poo\loto\include\cincidinpatruzeci.h
 	<vector>
-	"Exceptie.h"
-
-1681892094 d:\down\proiect-poo\loto\include\exceptie.h
-
-1681891830 source:d:\down\proiect-poo\loto\src\exceptie.cpp
-	"Exceptie.h"
 
