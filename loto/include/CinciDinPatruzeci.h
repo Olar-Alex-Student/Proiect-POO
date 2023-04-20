@@ -1,9 +1,6 @@
 #ifndef CINCIDINPATRUZECI_H
 #define CINCIDINPATRUZECI_H
 
-//Biblioteci
-#include <vector>
-
 class CinciDinPatruzeci
 {
     public:
@@ -30,8 +27,8 @@ class CinciDinPatruzeci
 
     private:
         float castig;
-        std::vector<int> numere;
-        std::vector<int> extrase;
+        int numere[5];
+        int extrase[49];
 };
 
 #endif // CINCIDINPATRUZECI_H

@@ -20,8 +20,8 @@ using namespace std;
 CinciDinPatruzeci::CinciDinPatruzeci()
 {
     this->castig = 0;
-    this->extrase = {};
-    this->numere = {};
+    this->extrase[40] = {0};
+    this->numere[5] = {0};
 }
 
 CinciDinPatruzeci::~CinciDinPatruzeci()
@@ -33,10 +33,8 @@ void CinciDinPatruzeci::AlegereNumere()
 {
     for(int i=0; i<5; i++)
     {
-        int numar;
         cout << "Nr. " << i+1 << ": ";
-        cin >> numar;
-        numere.push_back(numar);
+        cin >> numere[i];
     }
 }
 
@@ -50,18 +48,13 @@ void CinciDinPatruzeci::GetNumere()
 
 void CinciDinPatruzeci::ExtragereNumere()
 {
-    for(int i=0; i<40; i++)
+    for (int i = 0; i < 40; i++)
     {
-        int extras;
-        int random = 1 + (rand() % 40);
-        extras = random;
-        while (std::find(extrase.begin(), extrase.end(), extras) != extrase.end())
-        {
-            int random = 1 + (rand() % 40);
-            extras = random;
-        }
-        extrase.push_back(extras);
+        extrase[i] = i + 1;
     }
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(extrase, extrase + 40, g);
 }
 
 void CinciDinPatruzeci::GetNumereExtrase()
