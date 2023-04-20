@@ -1,7 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-class Main
+#include <Exceptie.h>
+
+class Main : public Exceptie
 {
     public:
         // Constructor

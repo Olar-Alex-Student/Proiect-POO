@@ -67,60 +67,73 @@ void Main::CitireSumaTastatura()
 
 void Main::main()
 {
-    int alegere;
-    CinciDinPatruzeci Joc5;
-    SaseDinPatruzeciSiNoua Joc6;
-    do
+    try
     {
-        system("cls");
-        cout << "MENIU" << endl << endl;
-
-        ///Posibilitati
-        cout << "1. Depoziteaza Bani" << endl;
-        cout << "2. Vizualizare Sold" << endl;
-        cout << "3. Joc 6/49" << endl;
-        cout << "4. Joc 5/40" << endl;
-        cout << "5. Iesire" << endl;
-
-        ///Alegere varianta
-        cout << endl << "Varianta ta este: ";
-        cin >> alegere;
-
-        //Meniu
-        switch(alegere)
+        int alegere;
+        CinciDinPatruzeci Joc5;
+        SaseDinPatruzeciSiNoua Joc6;
+        do
         {
-        case 1:
-            cout << endl << "Introdu suma: ";
-            CitireSumaTastatura();
-            getch();
-            break;
-        case 2:
-            cout << endl << "Sold-ul este: " << GetSuma() << endl;
-            getch();
-            break;
-        case 3:
-            if(suma <= 0 )
+            system("cls");
+            cout << "MENIU" << endl << endl;
+
+            ///Posibilitati
+            cout << "1. Depoziteaza Bani" << endl;
+            cout << "2. Vizualizare Sold" << endl;
+            cout << "3. Joc 6/49" << endl;
+            cout << "4. Joc 5/40" << endl;
+            cout << "5. Iesire" << endl;
+
+            ///Alegere varianta
+            cout << endl << "Varianta ta este: ";
+            cin >> alegere;
+
+            //Meniu
+            switch(alegere)
             {
-                throw Exceptie("6/49","Suma din cont este 0");
+            case 1:
+                cout << endl << "Introdu suma: ";
+                CitireSumaTastatura();
+                getch();
+                break;
+            case 2:
+                cout << endl << "Sold-ul este: " << GetSuma() << endl;
+                getch();
+                break;
+            case 3:
+                if(suma <= 0 )
+                {
+                    throw Exceptie("6/49","Suma din cont este 0");
+                }
+                Joc6.MainSaseDinPatruzeciSiNoua();
+                SetCastig(Joc6.GetCastig());
+                SetSumaDupaJoc(GetCastig());
+                getch();
+                break;
+            case 4:
+                if(suma <= 0 )
+                {
+                    throw Exceptie("5/40","Suma din cont este 0");
+                }
+                Joc5.MainCinciDinPatruzeci();
+                SetCastig(Joc5.GetCastig());
+                SetSumaDupaJoc(GetCastig());
+                getch();
+                break;
+            case 5:
+                exit(0);
             }
-            Joc6.MainSaseDinPatruzeciSiNoua();
-            SetCastig(Joc6.GetCastig());
-            SetSumaDupaJoc(GetCastig());
-            getch();
-            break;
-        case 4:
-            if(suma <= 0 )
-            {
-                throw Exceptie("5/40","Suma din cont este 0");
-            }
-            Joc5.MainCinciDinPatruzeci();
-            SetCastig(Joc5.GetCastig());
-            SetSumaDupaJoc(GetCastig());
-            getch();
-            break;
-        case 5:
-            exit(0);
         }
+        while(true);
     }
-    while(true);
+    catch(Exceptie ex)
+    {
+        ex.Print();
+        exit(0);
+    }
+    catch(...)
+    {
+        cout<<"Exceptie nedefinita!"<<endl;
+        exit(0);
+    }
 }
