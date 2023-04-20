@@ -30,8 +30,8 @@ class SaseDinPatruzeciSiNoua
 
     private:
         float castig;
-        std::vector<int> numere;
-        std::vector<int> extrase;
+        int numere[9];
+        int extrase[49];
 };
 
 #endif // SASEDINPATRUZECISINOUA_H

@@ -1,4 +1,4 @@
-#include "SaseDinPatruzeciSiNoua.h""
+#include "SaseDinPatruzeciSiNoua.h"
 
 //Biblioteci
 #include <iostream>
@@ -20,8 +20,8 @@ using namespace std;
 SaseDinPatruzeciSiNoua::SaseDinPatruzeciSiNoua()
 {
     this->castig = 0;
-    this->extrase = {};
-    this->numere = {};
+    this->extrase[49] = {0};
+    this->numere[6] = {0};
 }
 
 SaseDinPatruzeciSiNoua::~SaseDinPatruzeciSiNoua()
@@ -33,16 +33,14 @@ void SaseDinPatruzeciSiNoua::AlegereNumere()
 {
     for(int i=0; i<6; i++)
     {
-        int numar;
         cout << "Nr. " << i+1 << ": ";
-        cin >> numar;
-        numere.push_back(numar);
+        cin >> numere[i];
     }
 }
 
 void SaseDinPatruzeciSiNoua::GetNumere()
 {
-    for(int i=0; i<5; i++)
+    for(int i=0; i<6; i++)
     {
         cout << "Nr. " << i+1 << ": " << numere[i] << endl;
     }
@@ -50,18 +48,13 @@ void SaseDinPatruzeciSiNoua::GetNumere()
 
 void SaseDinPatruzeciSiNoua::ExtragereNumere()
 {
-    for(int i=0; i<49; i++)
+    for (int i = 0; i < 49; i++)
     {
-        int extras;
-        int random = 1 + (rand() % 49);
-        extras = random;
-        while (std::find(extrase.begin(), extrase.end(), extras) != extrase.end())
-        {
-            int random = 1 + (rand() % 49);
-            extras = random;
-        }
-        extrase.push_back(extras);
+        extrase[i] = i + 1;
     }
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(extrase, extrase + 49, g);
 }
 
 void SaseDinPatruzeciSiNoua::GetNumereExtrase()

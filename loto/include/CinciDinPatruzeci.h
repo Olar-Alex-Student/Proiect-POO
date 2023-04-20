@@ -28,7 +28,7 @@ class CinciDinPatruzeci
     private:
         float castig;
         int numere[5];
-        int extrase[49];
+        int extrase[40];
 };
 
 #endif // CINCIDINPATRUZECI_H
