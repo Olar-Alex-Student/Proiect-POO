@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4318330-0970-422d-a95f-2406c0c12928" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/loto/include/6/49.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loto/include/6Din49.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loto/loto.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/loto/loto.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loto/loto.layout" beforeDir="false" afterPath="$PROJECT_DIR$/loto/loto.layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loto/src/6/49.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loto/src/6Din49.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -58,13 +53,13 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/DOWN/Proiect-POO",
+    "last_opened_file_path": "D:/Proiect-POO",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
+    "settings.editor.selected.configurable": "Runtime.Targets.Configurable",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -80,6 +75,9 @@
       <workItem from="1681895621361" duration="919000" />
       <workItem from="1681896601945" duration="70000" />
       <workItem from="1681896737830" duration="954000" />
+      <workItem from="1682865183269" duration="125000" />
+      <workItem from="1683724037138" duration="236000" />
+      <workItem from="1683724404036" duration="2053000" />
     </task>
     <servers />
   </component>
