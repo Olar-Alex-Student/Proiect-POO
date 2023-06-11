@@ -123,3 +123,107 @@
 	<string.h>
 	<string>
 
+1686502748 source:/home/alex/Proiect-POO/Proiect-POO/loto/main.cpp
+	"Main.h"
+	"CinciDinPatruzeci.h"
+	"SaseDinPatruzeciSiNoua.h"
+	"Exceptie.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
+
+1686509004 /home/alex/Proiect-POO/Proiect-POO/loto/include/Main.h
+	<Exceptie.h>
+	<CinciDinPatruzeci.h>
+	<SaseDinPatruzeciSiNoua.h>
+
+1686500976 /home/alex/Proiect-POO/Proiect-POO/loto/include/Exceptie.h
+
+1686500976 /home/alex/Proiect-POO/Proiect-POO/loto/include/CinciDinPatruzeci.h
+
+1686500976 /home/alex/Proiect-POO/Proiect-POO/loto/include/SaseDinPatruzeciSiNoua.h
+	<vector>
+
+1686503283 source:/home/alex/Proiect-POO/Proiect-POO/loto/src/CinciDinPatruzeci.cpp
+	"CinciDinPatruzeci.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
+
+1686502581 source:/home/alex/Proiect-POO/Proiect-POO/loto/src/Exceptie.cpp
+	"Exceptie.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
+
+1686508807 source:/home/alex/Proiect-POO/Proiect-POO/loto/src/Main.cpp
+	"Main.h"
+	"CinciDinPatruzeci.h"
+	"SaseDinPatruzeciSiNoua.h"
+	"Exceptie.h"
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
+
+1686502938 source:/home/alex/Proiect-POO/Proiect-POO/loto/src/SaseDinPatruzeciSiNoua.cpp
+	"SaseDinPatruzeciSiNoua.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<vector>
+	<chrono>
+	<thread>
+	<random>
+	<algorithm>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<string>
+
+1686501674 /home/alex/Proiect-POO/Proiect-POO/loto/include/conio.h
+	<conio.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<termios.h>
+
+1686500976 source:/home/alex/Proiect-POO/Proiect-POO/loto/include/SaseDinPatruzeciSiNoua.h
+	<vector>
+

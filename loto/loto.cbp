@@ -37,7 +37,10 @@
 		<Unit filename="include/CinciDinPatruzeci.h" />
 		<Unit filename="include/Exceptie.h" />
 		<Unit filename="include/Main.h" />
-		<Unit filename="include/SaseDinPatruzeciSiNoua.h" />
+		<Unit filename="include/SaseDinPatruzeciSiNoua.h">
+			<Option compile="1" />
+			<Option weight="100" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="src/CinciDinPatruzeci.cpp" />
 		<Unit filename="src/Exceptie.cpp" />

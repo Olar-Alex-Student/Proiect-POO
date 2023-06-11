@@ -2,6 +2,8 @@
 #define MAIN_H
 
 #include <Exceptie.h>
+#include <CinciDinPatruzeci.h>
+#include <SaseDinPatruzeciSiNoua.h>
 
 class Main : public Exceptie
 {
@@ -24,6 +26,18 @@ class Main : public Exceptie
         float GetCastig();
         // Suma Dupa Joc
         void SetSumaDupaJoc(float _castig);
+        // Exit Joc
+        void Exit();
+        // Alegeri Meniu
+        void Alegeri();
+        // Depozitare Suma
+        void Depozit();
+        // Vizualizare Suma
+        void Vizualizare();
+        // Joc Sase Din Patruzecisinoua
+        void Sase(SaseDinPatruzeciSiNoua Joc6);
+        // Joc Cinci Din Patruzeci
+        void Cinci(CinciDinPatruzeci Joc5);
 
     protected:
 

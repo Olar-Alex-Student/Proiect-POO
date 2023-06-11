@@ -7,7 +7,7 @@
 //Biblioteci
 #include <iostream>
 #include <iomanip>
-#include <conio.h>
+//#include <conio.h>
 #include <cstdlib>
 #include <vector>
 #include <chrono>

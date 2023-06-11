@@ -3,7 +3,7 @@
 //Biblioteci
 #include <iostream>
 #include <iomanip>
-#include <conio.h>
+//#include <conio.h>
 #include <cstdlib>
 #include <vector>
 #include <chrono>
@@ -87,21 +87,21 @@ float CinciDinPatruzeci::GetCastig()
 
 void CinciDinPatruzeci::MainCinciDinPatruzeci()
 {
-    system("cls");
+    system("clear");
     cout << "Numerele de pe bilet sunt:" << endl;
     AlegereNumere();
-    system("cls");
+    system("clear");
     //GetNumere();
     cout << "Se extrag numerele..." << endl;
     std::this_thread::sleep_for(std::chrono::seconds(5));
     ExtragereNumere();
-    system("cls");
+    system("clear");
     cout << "Numerele extrase sunt:" << endl;
     GetNumereExtrase();
-    system("cls");
+    system("clear");
     cout << "Se verifica biletul..." << endl;
     std::this_thread::sleep_for(std::chrono::seconds(5));
     VerificareCastig();
-    system("cls");
-    cout << "Castigul tau este " << GetCastig() << " din suma din cont." << endl;
+    system("clear");
+    cout << "Castigul tau este " << GetCastig() << " din suma din cont.";
 }
